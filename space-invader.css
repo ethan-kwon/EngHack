@@ -1,0 +1,94 @@
+:root {
+    --white: #FFFFFF;
+    --dark-purple: #1A2238;
+    --purple: #9DAAF2;
+    --orange: #FF6A3D;
+
+    padding:10px;
+}
+
+.hard-drive {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 53px;
+    top: 33px;
+
+    filter: invert(74%) sepia(16%) saturate(2532%) hue-rotate(192deg) brightness(99%) contrast(92%);
+}
+
+.store-header {
+    position: absolute;
+    width: 62px;
+    height: 30px;
+    left: 126px;
+    top: 18px;
+    
+    font-family: Lilita One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 27px;
+
+    color: var(--purple);
+}
+
+.space-invader-title {
+    position: absolute;
+    width: 459px;
+    height: 61px;
+    left: 53px;
+    top: 40px;
+
+    font-family: Lilita One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 64px;
+    line-height: 73px;
+
+    color: var(--purple)
+}
+
+.space-invader-image {
+    position: absolute;
+    width: 536px;
+    height: 399.65px;
+    left: 53px;
+    top: 175px;
+
+    background: url(image.png);
+}
+
+.space-invader-body {
+    position: absolute;
+    width: 490px;
+    height: 376.25px;
+    left: 700px;
+    top: 145px;
+
+    font-family: Arvo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 37px;
+
+    color: var(--white);
+}
+
+.get-button {
+    position: absolute;
+    width: 219px;
+    height: 73px;
+    left: 700px;
+    top: 485px;
+
+    font-family: Arvo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26.8302px;
+    line-height: 33px;
+
+    color: var(--white);
+    background-color: var(--orange);
+    border: 0;
+}

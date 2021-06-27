@@ -1,0 +1,165 @@
+:root {
+    --white: #FFFFFF;
+    --dark-purple: #1A2238;
+    --purple: #9DAAF2;
+    --orange: #FF6A3D;
+
+    padding:10px;
+}
+
+.title {
+    position: absolute;
+    width: 442px;
+    height: 135px;
+    left: 800px;
+    top: 100px;
+
+    font-family: 'Lilita One', cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 64px;
+    line-height: 73px;
+
+    color: var(--white);
+}
+
+.subtitle {
+    position: absolute;
+    width: 457px;
+    height: 37px;
+    left: 800px;
+    top: 190px;
+
+    font-family: 'Arvo', serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 44px;
+
+    color: var(--white);
+}
+
+.username {
+    position: absolute;
+    width: 319px;
+    height: 43px;
+    left: 800px;
+    top: 249px;
+
+    font-family: 'Lilita One', cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 41px;
+
+    color: var(--orange);
+}
+
+.username-input {
+    position: absolute;
+    width: 219px;
+    height: 18.46px;
+    left: 815px;
+    top: 339px;
+
+    font-family: Arvo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: white;
+    background-color:transparent;
+    border: 0;
+}
+
+.rectangle {
+    position: absolute;
+    width: 300px;
+    height: 38px;
+    left: 800px;
+    top: 330px;
+
+    background: #9DAAF2;
+}
+
+.password {
+    position: absolute;
+    width: 319px;
+    height: 43px;
+    left: 800px;
+    top: 350px;
+    
+    font-family: 'Lilita One', cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 41px;
+
+    color: var(--orange);
+}
+
+.rectangle2 {
+    position: absolute;
+    width: 300px;
+    height: 38px;
+    left: 800px;
+    top: 431px;
+
+    background: #9DAAF2;
+}
+
+.password-input {
+    position: absolute;
+    width: 219px;
+    height: 18.46px;
+    left: 815px;
+    top: 440px;
+
+    font-family: Arvo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: white;
+    background-color:transparent;
+    border: 0;
+}
+
+.login {
+    position: absolute;
+    width: 80px;
+    height: 20px;
+    left: 800px;
+    top: 500px;
+
+    font-family: Arvo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    
+    text-align: center;
+    text-decoration: none;
+    color: var(--white);
+    background-color: var(--orange);
+}
+
+.title-page-image {
+    position: absolute;
+    width: 645px;
+    height: 485.52px;
+    left: 53px;
+    top: 100px;
+}
+
+.hard-drive {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 53px;
+    top: 33px;
+
+    filter: invert(74%) sepia(16%) saturate(2532%) hue-rotate(192deg) brightness(99%) contrast(92%);
+}
